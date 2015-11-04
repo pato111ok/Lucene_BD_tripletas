@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>prueba.lucene</groupId>
+    <artifactId>prueba-lucene</artifactId>
+    <version>0.0.1-Lucene Patricio Jaramillo</version>
+    <name>prueba-lucene</name>
+    <description>Trabajo realizado sobre lucene</description>
+    <properties>
+        <lucene.version>4.10.0</lucene.version>
+        <jdk.version>1.7</jdk.version>
+    </properties>
+    <dependencies>
+    
+        <!-- lucene dependencies -->
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-core</artifactId>
+            <version>${lucene.version}</version>
+        </dependency>
+	  
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers-common</artifactId>
+            <version>${lucene.version}</version>
+        </dependency>
+	 
+        <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-queryparser</artifactId>
+            <version>4.10.0</version>
+            <type>jar</type>
+        </dependency>
+	 
+        <!-- mysql connection dependencies -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.5</version>
+        </dependency>
+  
+	
+
+    </dependencies>
+</project>
+
